@@ -1,0 +1,111 @@
+@import "colors"
+
+.orange
+	color: $orange
+
+.xs-hidden
+	@media (max-width: 768px)
+		display: none
+
+.b-welcome
+	.b-welcome__text
+		ul
+			font-weight: bold
+			margin-bottom: 45px
+
+	.b-article__main-add
+		input
+			margin-bottom: 10px
+
+		button
+			background-color: $grey !important
+
+
+.b-search
+	background-image: url('../img/bg09.png')
+	background-repeat: no-repeat
+	background-size: cover
+	height: auto
+	padding-bottom: 30px
+
+	.b-search__main
+		height: auto
+
+		h1
+			color: $white !important
+
+.b-detail__main-info-text
+	.b-detail__main-aside-about-form-links
+		text-align: center
+
+.b-world
+	padding-top: 35px !important
+
+	.container
+		padding-top: 0
+		padding-bottom: 0
+
+
+.b-featured
+	padding-bottom: 0 !important
+
+	.container
+		min-height: 400px
+
+
+.b-count
+	.container-fluid
+		background-color: $orange
+
+		.m-main
+			background: transparent
+			
+			.b-count__item-circle
+				span
+					color: $white
+
+				&:hover
+					background-color: $white
+					
+					span
+						color: $grey
+
+
+			h2
+				color: $white
+
+.b-homeReviews
+	background-image: url(../img/bg03.png) !important
+	background-repeat: no-repeat
+	background-size: cover
+
+	@media (max-width: 768px)
+		padding: 0 !important
+
+	.container
+		background-color: $white
+		padding: 5em
+			padding-top: 5em
+
+		h1
+			color: $orange
+			margin-top: 1.5em
+			margin-bottom: 1.5em
+
+		h4
+			color: $grey
+
+		a
+			background-color: $orange
+			color: $white
+			padding: 10px 15px
+
+			&:hover
+				background-color: $grey
+				color: $orange
+
+
+.b-partners
+	.b-brands__brand
+		img
+			height: 100px
